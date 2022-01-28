@@ -7,5 +7,18 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-  mode: 'jit'
+  mode: 'jit',
+  theme: {
+    colors: {
+      green: '#1DB954',
+      black: '#191414',
+      orange: '##ff8f00',
+      blue: '#2941ab'
+    },
+    text: {
+      white: '#f5f5f5',
+      orange: '##ff8f00',
+      blue: '#2941ab'
+    }
+  }
 }
