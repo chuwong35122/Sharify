@@ -6,6 +6,7 @@ import { authQueryParams } from "../lib/spotify";
 import querystring from "query-string";
 
 import SpotifyLogo from "../public/images/spotify-logo.svg";
+import Navbar from "../components/navbar/Navbar";
 
 function Landing() {
   const router = useRouter();
@@ -19,8 +20,9 @@ function Landing() {
   }
 
   return (
-    <div>
-      <Button
+    <>
+      <Navbar />
+      {/* <Button
         variant="contained"
         onClick={handleSpotifyAuth}
         endIcon={
@@ -34,8 +36,8 @@ function Landing() {
         }
       >
         Login with
-      </Button>
-    </div>
+      </Button> */}
+    </>
   );
 }
 

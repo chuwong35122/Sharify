@@ -13,7 +13,8 @@ module.exports = {
       green: '#1DB954',
       black: '#191414',
       orange: '##ff8f00',
-      blue: '#2941ab'
+      blue: '#2941ab',
+      white: '#f5f5f5',
     },
     text: {
       white: '#f5f5f5',
