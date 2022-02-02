@@ -21,7 +21,6 @@ function Landing() {
 
   return (
     <>
-      <Navbar />
       {/* <Button
         variant="contained"
         onClick={handleSpotifyAuth}
